@@ -1,5 +1,6 @@
 # Cyber Defense: Zero Day — Tower Defense on a Motherboard
 
+[![CI](https://github.com/kyora1111/cyber-defense/actions/workflows/ci.yml/badge.svg)](https://github.com/kyora1111/cyber-defense/actions/workflows/ci.yml)
 [![Live](https://img.shields.io/badge/Play-live-14F195)](https://6g9ip66h.idos.games/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-14F195.svg)](LICENSE)
 [![Solana](https://img.shields.io/badge/Solana-mainnet-9945FF)](https://solana.com)
