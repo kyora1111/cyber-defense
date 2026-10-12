@@ -1,0 +1,28 @@
+{
+  "id": "cyber-defense",
+  "type": "template",
+  "summary": "Cyber Defense: a lane tower defense on a 5×9 motherboard — catch data packets, build towers, hold off ever tougher viruses for the best score of a run.",
+  "description": "A 2D tower defense in the style of Plants vs Zombies (React/DOM, no engine), a mode of its own launched by the lobby's Play button. The field is a 5×9 grid, the 'motherboard'. Data packets fall over it; tapping one adds it to the player's counter. Viruses appear beyond the right edge in a random lane and walk left, each arrival tougher and sooner than the last: the Trojan, and rarely the Elite Virus with three times its health. Five towers: the Firewall (50) shoots bits along its lane while a virus is in it; the Server Rack (50) is a wall with five times its health; the Spam Filter (125) fires three times as often for half the damage; the Mech Keyboard (150) is a mine; the Cooler (175) fires icy shots that barely hurt but halve a virus's walking speed for 3 seconds. A virus that meets a tower stops and eats it; one at the left edge ends the run. Destroyed viruses give score only, and a finished run's score goes to the Title's leaderboard of the best single run. Nothing is sold or earned: a player who holds the Title's main crypto currency (an SPL token on Solana) gets rewards for holding — two tower skins and a bonus to a run's starting data packets. The game reads the wallet's balance from the chain in the browser, switches on a timed boost of the Title for every reward the holding earns and keeps renewing it; a reward works while its boost is active. A lobby tab of the module lists the rewards and what the player holds.",
+  "provides": [
+    "5×9 lane grid (the motherboard)",
+    "falling data packets caught by tap",
+    "match resource counter",
+    "inventory panel of defender cards with prices",
+    "placing a defender on an empty cell for its price",
+    "enemies walking their lanes right to left, growing tougher and more frequent",
+    "rare elite enemy",
+    "shooter tower firing only while an enemy is in its lane",
+    "mine tower exploding on contact",
+    "wall tower with a large health pool",
+    "rapid-fire tower with weaker shots",
+    "slowing tower: a refreshed, non-stacking chill on hit",
+    "projectile and tower collisions, towers eaten by enemies",
+    "run score submitted to a best-single-run leaderboard",
+    "rewards for holding the title's token: tower skins and a start bonus, carried by timed boosts",
+    "reading a Solana wallet's SPL token balance in the browser (associated token account)",
+    "lobby tab listing the hold rewards and the player's holding",
+    "kill counter and a Game Over screen with the run's results and restart"
+  ],
+  "tags": ["tower-defense", "lane-defense", "casual", "dom", "web3"],
+  "version": "0.5.0"
+}

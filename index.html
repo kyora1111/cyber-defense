@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyber Defense</title>
+    <script>
+      // The game is English-only (the owner's decision, 2026-10-12). The SDK has no language
+      // setting: the lobby, every module's string table (makeT) and the wallet panel choose
+      // Russian or English by navigator.language — so that is what is pinned here, before any of
+      // them loads. To bring Russian back, delete this script: the Russian tables are still there.
+      try {
+        Object.defineProperty(navigator, "language", { value: "en", configurable: true });
+        Object.defineProperty(navigator, "languages", { value: ["en"], configurable: true });
+      } catch (e) {}
+    </script>
+    <style>
+      html,
+      body,
+      #app {
+        margin: 0;
+        height: 100%;
+        /* The theme's default bgBottom (src/ui.config.ts); mountHost repaints it from the theme. */
+        background: #0d1033;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

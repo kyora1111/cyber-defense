@@ -1,0 +1,25 @@
+import { defineModule, type Module } from "@idosgames/module-sdk";
+import { makeFriendsScreen, watchFriends } from "./FriendsScreen";
+import { t } from "./i18n";
+
+// Friends as a feature of the game. The always-on watcher keeps the badge: requests waiting for an
+// answer (a counter that comes with the player state) and unread notifications.
+export const friendsModule: Module = defineModule({
+  id: "friends",
+  meta: { name: "Friends", type: "app", engine: "dom" },
+  setup(ctx) {
+    ctx.features.register({
+      id: "friends",
+      label: t("title"),
+      icon: "friends",
+      group: "social",
+      order: 80,
+      Screen: makeFriendsScreen(ctx.features),
+    });
+    watchFriends(ctx);
+    ctx.exposeToAgent({
+      state: () => ({ ui: "dom", feature: "friends" }),
+      describeActions: {},
+    });
+  },
+});

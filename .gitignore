@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files — local settings and secrets never go into the repository
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local settings of AI coding tools
+.claude/settings.local.json
+
+# Working notes of the development process; the published documentation is docs/*.md
+docs/feature-history/
