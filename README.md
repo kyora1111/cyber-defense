@@ -202,7 +202,7 @@ No environment file is needed: the title the game talks to is baked into `src/id
 - [Live Application](https://6g9ip66h.idos.games/)
 - [Game page on iDos Games](https://idosgames.com/app/6G9IP66H/) — the $ZDAY chart and trading
 - [$ZDAY on Solscan](https://solscan.io/token/5HcLXTufXwi5B8vJH9RHd5Rz5jUtqs8D4CQQqq1idos)
-- [Project Presentation](#)
+- [Project Presentation — pitch video](https://youtu.be/JDMlpxAr3OQ)
 - [Video Demo](#)
 - [GitHub](https://github.com/kyora1111)
 
