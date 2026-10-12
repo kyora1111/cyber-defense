@@ -9,7 +9,7 @@
 
 > A lane tower defense in the style of Plants vs Zombies where the battlefield is a motherboard — and where the **$ZDAY** token is never farmed and never sold: **holding** it in your Solana wallet is what unlocks tower skins and a head start.
 
-[Live Demo](https://6g9ip66h.idos.games/) · [Video Walkthrough](docs/media/cyber-defense-demo.mp4) · [Pitch Video](https://youtu.be/JDMlpxAr3OQ) · [Presentation](docs/presentation/cyber-defense-deck.pdf) · [Docs](docs/) · [Colosseum Submission](#)
+[Live Demo](https://6g9ip66h.idos.games/) · [Video Walkthrough](docs/media/cyber-defense-demo.mp4) · [Pitch Video](https://youtu.be/LQkmPufOj8k) · [Presentation](docs/presentation/cyber-defense-deck.pdf) · [Docs](docs/) · [Colosseum Submission](https://colosseum.com/arena/projects/cyber-defense%3A-zero-day)
 
 ---
 
@@ -202,8 +202,9 @@ Full roadmap: [docs/roadmap.md](docs/roadmap.md)
 
 ## Resources
 
+- [Colosseum Submission](https://colosseum.com/arena/projects/cyber-defense%3A-zero-day)
 - [Project Presentation](docs/presentation/cyber-defense-deck.pdf) — the pitch deck, 12 slides
-- [Pitch Video](https://youtu.be/JDMlpxAr3OQ)
+- [Pitch Video](https://youtu.be/LQkmPufOj8k)
 - [Video Demo](docs/media/cyber-defense-demo.mp4) — a walkthrough of the game, 1 minute
 - [Live Application](https://6g9ip66h.idos.games/)
 - [Game page on iDos Games](https://idosgames.com/app/6G9IP66H/) — the $ZDAY chart and trading
