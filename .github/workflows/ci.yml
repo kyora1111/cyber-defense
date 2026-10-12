@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check required files exist
         run: |
@@ -24,9 +24,11 @@ jobs:
           echo ""
           echo "All checks passed!"
 
-      - uses: actions/setup-node@v4
+      # Node 24 ships npm 11, the version package-lock.json is written by; `npm ci` of npm 10
+      # rejects that lockfile as out of sync.
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
