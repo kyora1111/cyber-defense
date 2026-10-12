@@ -8,7 +8,7 @@
 
 > A lane tower defense in the style of Plants vs Zombies where the battlefield is a motherboard — and where the **$ZDAY** token is never farmed and never sold: **holding** it in your Solana wallet is what unlocks tower skins and a head start.
 
-[Live Demo](https://6g9ip66h.idos.games/) · [Video Walkthrough](#) · [Docs](docs/) · [Colosseum Submission](#)
+[Live Demo](https://6g9ip66h.idos.games/) · [Video Walkthrough](docs/media/cyber-defense-demo.mp4) · [Pitch Video](https://youtu.be/JDMlpxAr3OQ) · [Presentation](docs/presentation/cyber-defense-deck.pdf) · [Docs](docs/) · [Colosseum Submission](#)
 
 ---
 
@@ -177,7 +177,7 @@ npm run typecheck
 npm run build
 ```
 
-No environment file is needed: the title the game talks to is baked into `src/idos.title.ts`, and a local run uses the live title.
+No environment file is needed: the title the game talks to is baked into `src/idos.title.ts`, and a local run uses the live title. The optional variables are listed in [`.env.example`](.env.example).
 
 ---
 
@@ -195,15 +195,19 @@ No environment file is needed: the title the game talks to is baked into `src/id
 - [ ] More viruses, towers and designed waves
 - [ ] More skins and hold tiers
 
+Full roadmap: [docs/roadmap.md](docs/roadmap.md)
+
 ---
 
 ## Resources
 
+- [Project Presentation](docs/presentation/cyber-defense-deck.pdf) — the pitch deck, 12 slides
+- [Pitch Video](https://youtu.be/JDMlpxAr3OQ)
+- [Video Demo](docs/media/cyber-defense-demo.mp4) — a walkthrough of the game, 1 minute
 - [Live Application](https://6g9ip66h.idos.games/)
 - [Game page on iDos Games](https://idosgames.com/app/6G9IP66H/) — the $ZDAY chart and trading
 - [$ZDAY on Solscan](https://solscan.io/token/5HcLXTufXwi5B8vJH9RHd5Rz5jUtqs8D4CQQqq1idos)
-- [Project Presentation — pitch video](https://youtu.be/JDMlpxAr3OQ)
-- [Video Demo](#)
+- [Product](docs/product.md) · [Roadmap](docs/roadmap.md) · [Contributing](CONTRIBUTING.md)
 - [GitHub](https://github.com/kyora1111)
 
 ---

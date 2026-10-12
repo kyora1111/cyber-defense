@@ -163,4 +163,4 @@ are not loaded automatically: open the relevant one before changing that system.
 
 `docs/feature-history/` is working notes and is kept out of the public repository (`.gitignore`).
 What readers of the repository get is `README.md` and `docs/*.md` (architecture, gameplay, hold
-rewards) — when a system changes, keep those true as well.
+rewards, product, roadmap) — when a system changes, keep those true as well.
